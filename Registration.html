@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+    </head>
+    <body>
+        <form method="post" action="server1" name="Registration">
+           <caption ><H2><bold>Registration Form</bold></H2></caption>
+            <table cellpadding="3px" cellspacing="2px">
+                <tr>
+                    <td><label for="fname">First Name</label><br>
+                        <input type="text" id="fname" name="fname">
+                    </td>
+                    <td><label for="lname">Last Name</label><br>
+                        <input type="text" id="lname" name="lname">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="dob">Date Of Birth</label><br>
+                        <input type="date" id="dob" name="dob">
+                    </td>
+                    <td><label>Gender</label><br>
+                        <input type="radio" name="gender">Male
+                        <input type="radio" name="gender">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label><br>
+                    <input type="email" id="email" name="email"></td>
+                    <td><label for="pn">Phone Number</label><br>
+                    <input type="number" id="pn" name="pn"></td>
+                </tr>
+                <tr>
+                    <td><label for="subject">Subject</label><br>
+                    
+                        <select id="subject" name="subject">
+                            <option value="subject">Choose Option</option>
+                            <option value="subject">eng</option>
+                            <option value="subject">Math</option>
+                            <option value="subject">evs</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr><td><input type="submit" value="Submit"></td></tr>
+            </table>
+        </form>
+    </body>
+</html>
